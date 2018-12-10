@@ -8,10 +8,10 @@ public class Hangman {
         //initalizing
         String Player1;
         String Player2;
+        String secretword;
         String letter;
-        String chosenword;
         String again;
-        String Incorrectphrase;
+        String[] currentGuessbreakdown;
 
 
 
@@ -22,8 +22,12 @@ public class Hangman {
         System.out.println("If you guess incorrectly and go over 7 mistakes, oyu get it wrong.");
         System.out.println("Lets Begin!");
 
+        secretword = keyboard.nextLine();
 
-        for (int x=0; x<=15;x++){
+
+
+
+            for (int x=0; x<=15;x++){
         }
 
         System.out.println("+------------+");
@@ -32,5 +36,11 @@ public class Hangman {
         System.out.println("|            |");
         System.out.println("|            |");
         System.out.println("+------------+");
+
+
+
+
+
+        }
     }
-}
+
