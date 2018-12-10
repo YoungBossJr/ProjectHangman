@@ -31,10 +31,12 @@ public class Hangman {
         }
 
         System.out.println("+------------+");
-        System.out.println("|            |");
-        System.out.println("|            |");
-        System.out.println("|            |");
-        System.out.println("|            |");
+        System.out.println("|      O     |");
+        System.out.println("|   ___|___  |");
+        System.out.println("|      |     |");
+        System.out.println("|     _|_    |");
+        System.out.println("|    |   |   |");
+        System.out.println("|    |   |    |");
         System.out.println("+------------+");
 
 
